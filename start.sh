@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed 's/localhost/$HOST/' /sendd/public/javascripts/index-localhost.js > /sendd/public/javascripts/index.js
+sed "s/localhost/$HOST/" /sendd/public/javascripts/index-localhost.js > /sendd/public/javascripts/index.js
 
 cd /sendd
 

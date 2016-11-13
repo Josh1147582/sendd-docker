@@ -7,4 +7,4 @@ ADD start.sh /start.sh
 CMD chmod +x /start.sh
 EXPOSE 3000 9000
 ENV HOST=localhost
-CMD su -c "$HOST /start.sh"
+CMD su -c "export HOST=$HOST && /start.sh"
