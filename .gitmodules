@@ -1,0 +1,3 @@
+[submodule "sendd"]
+	path = sendd
+	url = https://github.com/Josh1147582/sendd
